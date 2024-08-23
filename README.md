@@ -11,23 +11,15 @@ Model Evaluation: Comparing models using MAE, MSE, and R2 Score, with the Gradie
 Model Deployment: Implementing a Streamlit application for real-time car price prediction.
 Visualization: Feature importance bar plots, correlation heatmap, and other visualizations to interpret the data and model outputs
 
-Model Performance
-Gradient Boosting Regressor (Tuned):
-MAE: 62,639.89
-MSE: 9.03e+09
-R2 Score: 0.953
-Random Forest Regressor (Tuned):
-MAE: 65,579.35
-MSE: 1.04e+10
-R2 Score: 0.946
-Decision Tree Regressor:
-MAE: 89,988.72
-MSE: 2.32e+10
-R2 Score: 0.880
-Linear Regression:
-MAE: 134,256.47
-MSE: 3.38e+10
-R2 Score: 0.825
+ MODEL	              MAE	     MSE	      R2 Score
+Linear Regression	1.42e+05	  3.79e+10	   0.8363
+Decision Tree	8.69e+04	      2.13e+10	   0.9077
+Random Forest 6.70e+04	      1.12e+10    0.9515
+(Tuned)
+Gradient Boosting 6.42e+04	  1.00e+10	   0.9564
+(Tuned)
+
+
 Results and Visualizations
 Feature Importance: Identifies key factors influencing car prices.
 Correlation Heatmap: Visualizes relationships between features.
